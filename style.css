@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utility Classes */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em 0;
+}
+
+.count {
+    background-color: #888;
+    padding: 0.25em 0.5em;
+    border-radius: 50%;
+}
+
+.grey {
+    color: grey;
+    position: relative;
+    top: -0.5em;
+}
+
+.icon {
+    height: 2em;
+}
+
+.icon.utility {
+    height: 1.5em;
+}
+
+/* Utility Classes End */
+
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1em 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.nav-links li {
+    margin-left: 1.5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    border: 2px solid #333;
+    background-color: #14A2B8;
+    color: white;
+    padding: 0.25em 0.8em;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2em auto;
+    display: flex;
+    gap: 2em;
+}
+
+.left-col {
+    flex: 2;
+}
+
+.right-col {
+    flex: 1;
+}
+
+.card {
+    border: 2px solid #888;
+}
+
+#edu {
+    background-color: black;
+    color: white;
+    padding: 0.75em 1em;
+}
+
+.body {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.request-body {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.more {
+    border-top: 2px solid grey;
+    padding: 1em;
+}
+
+.profile-top {
+    background-color: #14A2B8;
+    height: 100px;
+    margin-bottom: 60px;
+}
+
+.pic {
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 25px
+}
+
+a {
+    color: #2B78E4;
+}
+
+.request.row {
+    justify-content: space-between;
+}
+
+.connections {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
