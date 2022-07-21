@@ -20,6 +20,16 @@
     gap: 2em;
 }
 
+.icon {
+    height: 2em;
+}
+
+.icon.utility {
+    height: 1.5em;
+}
+
+/* Utility Classes End */
+
 .top {
     background-color: black;
     color: white;
@@ -40,16 +50,6 @@
     position: relative;
     top: -0.5em;
 }
-
-.icon {
-    height: 2em;
-}
-
-.icon.utility {
-    height: 1.5em;
-}
-
-/* Utility Classes End */
 
 header {
     background-color: black;
